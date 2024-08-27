@@ -1,0 +1,60 @@
+body{
+    color: #070004;
+    background: #070004;
+    margin: 5px;
+    font-family: "Indie Flower", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #ededed;
+    padding: 20px;
+    font-size: 50px;
+    color: #ededed;
+}
+
+.chamada {
+    background: #e8730d;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+  }
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid #ededed;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria h2 {
+    color: rgb(255, 255, 255);
+
+}
